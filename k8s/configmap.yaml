@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kutt-config
+  namespace: url-shortener
+data:
+  PORT: "3000"
+  SITE_NAME: "Kutt"
+  DEFAULT_DOMAIN: "localhost:3000"
+  DB_CLIENT: "pg"
+  DB_HOST: "postgres"
+  DB_PORT: "5432"
+  DB_NAME: "kutt"
+  DB_SSL: "false"
+  DB_POOL_MIN: "0"
+  DB_POOL_MAX: "10"
+  TRUST_PROXY: "true"
+  REDIS_ENABLED: "true"
+  REDIS_HOST: "redis"
+  REDIS_PORT: "6379"
+  DISALLOW_REGISTRATION: "true"
+  DISALLOW_ANONYMOUS_LINKS: "true"

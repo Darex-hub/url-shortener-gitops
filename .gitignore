@@ -1,0 +1,47 @@
+k8s/secret.yaml
+darex-devops.pem
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker
+*.pid
+*.seed
+*.pem
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+terraform.tfvars.json
+
+# Kubernetes
+*.yaml~
+*.yml~
+.kube/
+.k8s/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
