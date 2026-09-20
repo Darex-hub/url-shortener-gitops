@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: kutt
-          image: <your-registry>/kutt:latest   # replaced by CI in Part 7
+          image: darexy101/kutt
           ports:
             - containerPort: 3000
           envFrom:
