@@ -6,7 +6,7 @@ metadata:
 data:
   PORT: "3000"
   SITE_NAME: "Kutt"
-  DEFAULT_DOMAIN: "localhost:3000"
+  DEFAULT_DOMAIN: "54.235.39.35.nip.io"
   DB_CLIENT: "pg"
   DB_HOST: "postgres"
   DB_PORT: "5432"
