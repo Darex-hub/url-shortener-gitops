@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: kutt
-          image: darexy101/kutt
+          image: darexy101/kutt:latest
           ports:
             - containerPort: 3000
           envFrom:

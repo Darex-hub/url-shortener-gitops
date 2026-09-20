@@ -1,5 +1,5 @@
 project_name       = "url-shortener"
 primary_public_key = "ssh-rsa AARTAB3NzaC1yc2EAAAADAQABAAABAQC3... name@gmail.com"
-allowed_ssh_cidr   = "213.0.113.25/32"
+allowed_ssh_cidr   = "1*9.**5.124.***/32"
 ami_id             = "ami-0abcdef1234567890"
 instance_type      = "t2.micro"
